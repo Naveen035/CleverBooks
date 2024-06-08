@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverBooks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script>
+        var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
+            interval: 5000
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63d8262cbfe9e806aca29403_Crest%20white%20font%20small.png" alt="Crest AI Logo" class="image">
+        </div>
+        <nav>
+            <ul class="hoverList">
+                <li><a href="#hero" id="product-link">Product</a></li>
+                <li><a href="https://www.getcrest.ai/pricing">Pricing</a></li>
+                <li><a href="#industries">Industry</a></li>
+                <li><a href="https://www.getcrest.ai/customer-stories">Customer Stories</a></li>
+                <li><a href="https://www.getcrest.ai/about-us">About</a></li>
+                <li><a href="https://www.getcrest.ai/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="button">Login</button>
+            <button class="button2">Talk to Us</button>
+        </div>
+    </header>
+    <div class="popup" id="product-popup">
+        <div class="container">
+            <div class="header">
+                <h1>Product Home</h1>
+            </div>
+            <div class="content">
+                <a href="https://www.getcrest.ai/product/helix" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/63ff51f402d807110ce327e3_HELIX%20SVG%20ICON.svg" alt="helix" class="popup-image" />
+                        <h2>HELIX: Workflow Automation</h2>
+                    </div>
+                </a>
+                <a href="https://www.getcrest.ai/product/demand-forecasting" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/639b3e775b326d1743ea3e92_Demand%20Forcasting.svg" alt="popup" class="popup-image" />
+                        </div>
+                        <div>
+                            <h2>Accurate Demand Forecasting</h2>
+                            <p>Dynamically predict future demand with unmatched accuracy</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.getcrest.ai/product/purchase-planning" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/639b3e775b326d76a9ea3e90_Purchase%20Planning.svg" alt="popup" class="popup-image" />
+                        </div>
+                        <div>
+                            <h2>Automated Purchase Planning</h2>
+                            <p>Automate your purchase order generation</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.getcrest.ai/product/integrations" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/639b3e775b326da925ea3e91_Integrations.svg" alt="popup" class="popup-image" />
+                        </div>
+                        <div>
+                            <h2>Integrations</h2>
+                            <p>Yes, Crest works with your tech and ops stack!</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.getcrest.ai/product/custom-dashboards" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/643680ae1721eb351d815937_dashboard%20icon%20.svg" alt="popup" class="popup-image" />
+                        </div>
+                        <div>
+                            <h2>Custom Dashboards</h2>
+                            <p>Build and visualise data your way</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.getcrest.ai/product/consensus-planning" style="color : white; text-decoration : none; ">
+                    <div class="card">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/662a4722c49c3b0e91bbc19b_consensus.svg" alt="popup" class="popup-image" />
+                        </div>
+                        <div>
+                            <h2>Consensus Planning<span class="new-badge">New</span></h2>
+                            <p>Collaborate and take better decisions faster</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="close-popup contact-button">Close</button>
+    </div>
+    <section id="hero">
+        <div class="main-page">
+            <div class="home-page">
+                <h1 class="home-page-heading">Every order fulfilled, <span class="home-page-span">on time.</span></h1>
+                <p class="home-page-paragraph">Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.</p>
+                <div class="home-page-sm">
+                    <button class="home-page-button">Get Started With Crest</button>
+                    <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63d1777671aadb7b8492b5f9_hero-home-cta%20right%20to%20left.svg" alt="Home-image" class="home-page-button-image" />
+                </div>
+            </div>
+            <div>
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" />
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <h1 class="questions-page-main-heading">Four key questions answered by Crest</h1>
+        <div class="questions-page">
+            <div class="questions-page-card">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f63ee54595853ca5e31682_what%20to%20orderr%20(1).svg" alt="notice" class="questions-page-image" />
+                <h1 class="questions-page-heading">What to order</h1>
+                <p class="questions-page-paragraph">Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle.</p>
+            </div>
+            <div class="questions-page-card">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0d2fab2e360025df922a_when%20to%20orderr.svg" alt="notice" class="questions-page-image" />
+                <h1 class="questions-page-heading">When to order</h1>
+                <p class="questions-page-paragraph">Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.</p>
+            </div>
+            <div class="questions-page-card">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0cc629ab7f2d8cb0a8bd_how%20much%20to%20stock.svg" alt="notice" class="questions-page-image" />
+                <h1 class="questions-page-heading">How much to stock</h1>
+                <p class="questions-page-paragraph">Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.</p>
+            </div>
+            <div class="questions-page-card">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63bd0c2c27cde81ffea6515b_where%20to%20placee.svg" alt="notice" class="questions-page-image" />
+                <h1 class="questions-page-heading">Where to place</h1>
+                <p class="questions-page-paragraph">Our tool suggests how to move stock within your supply chain. So you'll always have products available across cities.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container2">
+        <div class="sidebar">
+            <div class="icon" onclick="showContent('stockouts')">STOCKOUTS</div>
+            <div class="icon" onclick="showContent('cash')">CASH RECOVERY CYCLE</div>
+            <div class="icon" onclick="showContent('revenue')">REVENUE</div>
+        </div>
+        <div class="content">
+            <div id="stockouts" class="content-item active">
+                <h1 class="content-heading"><span class="content-item-span">85</span>%</h1>
+                <p class="content-paragraph">Reduction in out-of-stock</p>
+            </div>
+            <div id="cash" class="content-item">
+                <h1 class="content-heading"><span class="content-item-span">25</span>Days</h1>
+                <p class="content-paragraph">Reduction in Cash Recovery time</p>
+            </div>
+            <div id="revenue" class="content-item">
+                <h1 class="content-heading"><span class="content-item-span">15</span>%</h1>
+                <p class="content-paragraph">Growth In Revenue</p>
+            </div>
+        </div>
+    </div>
+    <div id="componentOne" class="profile-container active">
+        <div class="profile-sub-container">
+            <div>
+                <div>
+                    <p class="profile-paragraph">
+                        As Co-founders, we had zero clue on the real time stock levels in our warehouse. It felt like a battle to manually update invoices from EE to Zoho, so that at least some data points can be tracked.
+                        While we had already implemented Crest I had no clue that they could make this API integration work for us and exactly the way we wanted it to work. Thank you team Rahul Vishwakarma & Yogesh Byahatti for identifying the problem and being so quick with the solution, kudos to the amazing team you have.
+                    </p>
+                    <div class="profile-subcard-container">
+                        <div class="profile-card-container">
+                            <div>
+                                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664ddd1080709540ff764308_P-Tal%20founder.jpg" class="profile-image" />
+                            </div>
+                            <div>
+                                <h1 class="profile-card-heading">Kirti Goel</h1>
+                                <p class="profile-card-paragraph">Co-founder, P-TAL</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664d8f654c71b6204bdf301c_P%20TAL%20logo.svg" class="profile-company" />
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="arrow-left" class="arrow-button" onclick="goToComponentTwo()" />
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="arrow-left" class="arrow-button" onclick="goToComponentTwo()" />
+                    </div>
+                    <div class="profile-side-card-container">
+                        <div class="profile-side-card">
+                            <p>Automated <br />Invoice <br />Reconciliation</p>
+                        </div>
+                        <div class="profile-side-card">
+                            <p>Channel wise <br />Sales <br />Classification</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664c90f75b0f0e735016706b_P-tal-p-500.webp" alt="profile" class="profile-main-image" />
+            </div>
+        </div>
+    </div>
+    <div id="componentTwo" class="profile-container">
+        <div class="profile-sub-container">
+            <div>
+                <div>
+                    <p class="profile-paragraph">
+                        D2C brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. Crest automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Crest unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.
+                    </p>
+                    <div class="profile-subcard-container">
+                        <div class="profile-card-container">
+                            <div>
+                                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/651c00235cd9c2cd10fb1976_Samosa%20Party%20Client%20Image.webp" class="profile-image" />
+                            </div>
+                            <div>
+                                <h1 class="profile-card-heading">Diksha Pande</h1>
+                                <p class="profile-card-paragraph">Co-founder, Samosa Party</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63a48634ed59555eb9125770_samosa.svg" class="profile-company" />
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="arrow-left" class="arrow-button" onclick="goToComponentOne()" />
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="arrow-left" class="arrow-button" onclick="goToComponentOne()" />
+                    </div>
+                    <div class="profile-side-card-container">
+                        <div class="profile-side-card">
+                            <p>Automated <br />Invoice <br />Reconciliation</p>
+                        </div>
+                        <div class="profile-side-card">
+                            <p>Channel wise <br />Sales <br />Classification</p>
+                        </div>
+                        <div>
+                            <button class="profile-button">
+                                <a href="https://www.getcrest.ai/customer-stories/crest-helps-samosa-party-fulfil-95-of-their-customer-demand" style="color : #c36fc9; text-decoration : none; ">
+                                    Read Story
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664ddc11c29c3652662f0739_samosa%20party%20image.webp" alt="profile" class="profile-main-image" />
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="spreadsheet-main-heading">Things your spreadsheet wishes it could do</h1>
+        <div class="profile-container24">
+            <div class="side-headings">
+                <div class="side-heading active" onclick="toggleProfile(0)" style="display: block;">Accurate Demand Forecasting</div>
+                <div class="profile-content24" id="content-0" style="display: block;">
+                    <p class="profile-paragraph24">Dynamically predict future demand across all channels, with high accuracy and lowest granularity. Crest takes into account what traditional forecasts don't: trends, real-time market signals, promotional activities, and even logistics disruptions.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-0">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(1)">Helix : WorkFlow Automation</div>
+                <div class="profile-content24" id="content-1" style="display: none;">
+                    <p class="profile-paragraph24">Build and automate custom S&OP workflows to enhance productivity and streamline your processes. Crest helps you get a bird's eye view of your supply chain, and help you do things a spreadsheet never can.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-1">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(2)">Automated Purchase planning</div>
+                <div class="profile-content24" id="content-2" style="display: none;">
+                    <p class="profile-paragraph24">Never miss an order, and know exactly how much to order, when, and from whom. This is made possible with constant inventory tracking and automated PO generation. What's more, Crest improves with every planning cycle as the data set gets richer.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-2">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(3)">Automated Distrubution planning</div>
+                <div class="profile-content24" id="content-3" style="display: none;">
+                    <p class="profile-paragraph24">Faster replenishment cycles mean more working capital for you. Granular warehouse and store-level insights help you optimally allocate materials and inventory. Say goodbye to stock-outs and excess inventory.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-3">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(4)">Easy Integration</div>
+                <div class="profile-content24" id="content-4" style="display: none;">
+                    <p class="profile-paragraph24">From all online store solutions to cloud ERPs, Crest integrates seamlessly with your current tech and ops stack. What's more? Connecting them to Crest will give you actionable insights.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-4">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(5)">Custom Dashboards</div>
+                <div class="profile-content24" id="content-5" style="display: none;">
+                    <p class="profile-paragraph24">Create customised dashboards to identify important trends, patterns, and insights. Tailor them to match the unique requirements of your team, empowering them to extract data in a user-friendly format that can be easily comprehended.</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-5">Learn more</a>
+                </div>
+                <div class="side-heading" onclick="toggleProfile(6)">Consensus Planning</div>
+                <div class="profile-content24" id="content-6" style="display: none;">
+                    <p class="profile-paragraph24">Get inputs from all major stakeholders for the forecast numbers with a multi- level approval process. Compare & visualise the impact of the numbers on major KPIs in real time and take informed decisions with Scenario Planning</p>
+                    <a href="https://www.getcrest.ai/#w-tabs-0-data-w-pane-6">Learn more</a>
+                </div>
+            </div>
+            <div class="profile-image-container24">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-800.webp" id="profile-image" alt="Profile Image" class="profile-image24">
+            </div>
+        </div>
+        <button class="about-button profile-button24"><a href="https://www.getcrest.ai/product" style="text-decoration : none; color : #de76d9;">View all features</a></button>
+    </div>
+    <div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d486cea3f09_Focus%20on%20KPIs%20that%20matter.svg" class="d-block w-100" alt="carousel-item">
+                        </div>
+                        <div class="carousel-item-container">
+                            <h1 class="carousel-heading">A focus on KPIs that matter</h1>
+                            <p class="carousel-paragraph">Our Tools help you make decisions to grow your business Everything works towards imporoving cash flow and product avaliability</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5150ea3f0a_Ease%20of%20use.svg" class="d-block w-100" alt="carousel-item">
+                        </div>
+                        <div class="carousel-item-container">
+                            <h1 class="carousel-heading">Ease of use, for Everyone</h1>
+                            <p class="carousel-paragraph">with an inuative design and empatitic design crest requires only minimal traning (or beginner-level knlowledge of supply chain) to use</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <div>
+                            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326dab14ea3f0b_Purpose-built%20%26%20ever-improving%20tech.svg" class="d-block w-100" alt="carousel-item">
+                        </div>
+                        <div class="carousel-item-container">
+                            <h1 class="carousel-heading">Purpose-built & ever-improving tech</h1>
+                            <p class="carousel-paragraph">Our demand forcasting engine has been meticulosly-built while our ML engine constantly trains on years of data and is ever-evolving</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" />
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" />
+            </button>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="about-container">
+            <div><img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/64df240c8d5e1c29b06d3a95_Founders%20Photo-p-800.webp" alt="about-image" class="about-image" /></div>
+            <div>
+                <h1 class="about-heading">From the founders</h1>
+                <p class="about-paragraph">We are a young company solving an age-old problem: Supply Chain. Our goal is simple: to eradicate stock outs for businesses that want to grow faster. Our background, tech expertise, and empathy allow us to do just that.<br />
+                    Thank you for checking out Crest, and we hope to help you always be in stock!</p>
+                <button class="about-button"><a href="https://www.getcrest.ai/about-us" style="color : #c36fc9; text-decoration : none; ">Learn more</a></button>
+            </div>
+        </div>
+    </section>
+    <div class="main-blog-page">
+        <div class="main-blog">
+            <div class="blog-page">
+                <h1 class="blog-heading">Delivered:<br /> The Crest blog</h1>
+                <p class="blog-paragraph">Insights from years of working in various supply-chain <br />roles (and an itch to write). We hope you find these posts interesting!</p>
+                <div class="slider-arrows">
+                    <button class="arrow-left" onclick="slideLeft()"><img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="left-arrow"></button>
+                    <button class="arrow-right" onclick="slideRight()"><img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt="right-arrow"></button>
+                </div>
+                <button class="about-button"><a href="https://www.getcrest.ai/blog">View all Blogs</a></button>
+            </div>
+            <div class="blog-cards-container">
+                <div class="blog-cards">
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/6527d12579fe9fb6cfc0c8eb_RPA%20BLOG%20THUMBNAIL.png" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">Impact of RPA (Robotic Process Automation) in Supply Chain</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/impact-of-rpa-robotic-process-automation-in-supply-chain" class="blog-card-link">Oct 12, 2023</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/64ec7b71e9332bfe4b920ba3_thumbnail%20QSR%20(1).png" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">Creating an Impact with Inventory Planning: The QSR Edition</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/impact-of-rpa-robotic-process-automation-in-supply-chain">Aug 28, 2023</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/64ccbab82ea1c2946724d96f_blog-thumbnail.jpg" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">The Ultimate Recipe for Inventory Success</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/the-ultimate-recipe-for-inventory-success">Aug 4, 2023</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/64a2748fdf4cb57114ca9e3d_HOLIDAY%20SEASON%20-p-500.png" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">Stocking Strategies for Festive Season Sales</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/stocking-strategies-for-festive-season-sales">Jul 3, 2023</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/643d785ce4b16a9a9979095a_Blog%20Build%20VS%20Buy%20-p-500.png" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">To Build or Buy: The Endless Inventory Planning Dilemma</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/to-build-or-buy-the-endless-inventory-planning-dilemma">Apr 17, 2023</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://cdn.prod.website-files.com/639b3e775b326d0848ea3e74/642688163009ef784ee99686_blog%20image%20-p-1600.png" alt="blog-item" class="blog-card-image" />
+                        <h2 class="blog-card-heading">Why your ERP is not your Inventory Planning Tool</h2>
+                        <div>
+                            <a href="https://www.getcrest.ai/post/the-ultimate-recipe-for-inventory-success">Mar 31, 2023</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-page">
+            <h1 class="contact-heading">You can grow faster than you think!</h1>
+            <p class="contact-paragraph">Plan with Crest to fulfil your demand today, and dreams tomorrow. We bring the methods <br />and technologies of large global companies to help brands of all sizes scale.</p>
+            <button class="contact-button">Get started with Crest</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63d8262cbfe9e806aca29403_Crest%20white%20font%20small.png" alt="Crest AI Logo" class="image2">
+                <p>Crest is an AI-powered supply chain software that provides companies tools for demand forecasting, inventory planning and more. This helps them have the right amount of stock, optimise space and fulfil every order.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="https://www.getcrest.ai/product" style="color : white; text-decoration : none; ">Product</a></li>
+                        <li><a href="https://www.getcrest.ai/pricing" style="color : white; text-decoration : none; ">Pricing</a></li>
+                        <li><a href="https://www.getcrest.ai/customer-stories" style="color : white; text-decoration : none; ">Customer Stories</a></li>
+                        <li><a href="https://jobs.gohire.io/crest-4g9epqum/" style="color : white; text-decoration : none; ">Career</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Learn</h3>
+                    <ul>
+                        <li><a href="https://www.getcrest.ai/about-us" style="color : white; text-decoration : none; ">About us</a></li>
+                        <li><a href="https://www.getcrest.ai/blog" style="color : white; text-decoration : none; ">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Crest</h3>
+                    <p><a href="mailto:sales@getcrest.ai" style="color : white; text-decoration : none; ">sales@getcrest.ai</a></p>
+                    <p>Registered Office:<br>1507, Incubex, 11th cross road, 19th Main Road, Bengaluru, India. 560102</p>
+                    <p>Corporate Office:<br>291, All Time Space, 4th Floor, 15th A Cross, Sector - 6, HSR Layout, Bengaluru, India. 560102</p>
+                    <div class="social-media">
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2FGet_Crest" style="color : white; text-decoration : none; "><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/getcrest"><i class="fab fa-facebook-f" style="color : white; text-decoration : none; "></i></a>
+                        <a href="https://www.instagram.com/getcrest/?hl=en"><i class="fab fa-instagram" style="color : white; text-decoration : none; "></i></a>
+                        <a href="https://www.linkedin.com/company/get-crest/"><i class="fab fa-linkedin-in" style="color : white; text-decoration : none; "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Crest | <a href="https://www.getcrest.ai/terms-of-service" style="color : white; text-decoration : none; ">Terms of Service</a> | <a href="https://www.getcrest.ai/privacy-policy" style="color : white; text-decoration : none; ">Privacy Policy</a></p>
+            <p>Conifer Innovations Private Limited<br>CIN: U72900KA2022PTC163144</p>
+        </div>
+    </footer>
+</body>
+
+</html>
